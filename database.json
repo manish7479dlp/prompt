@@ -1,0 +1,242 @@
+[
+    {
+        "prompt": "What is the difference between '==' and '===' in JavaScript?",
+        "response": "'==' compares values after type coercion, whereas '===' compares both value and type without coercion."
+    },
+    {
+        "prompt": "What is a closure in JavaScript?",
+        "response": "A closure is a function that retains access to its lexical scope even when executed outside of that scope."
+    },
+    {
+        "prompt": "What is the use of 'let' and 'const' in JavaScript?",
+        "response": "'let' allows block-scoped variable declaration; 'const' declares block-scoped constants that cannot be reassigned."
+    },
+    {
+        "prompt": "Explain event delegation in JavaScript.",
+        "response": "Event delegation allows you to attach a single event listener to a parent element to handle events on its child elements."
+    },
+    {
+        "prompt": "What is the difference between 'null' and 'undefined'?",
+        "response": "'undefined' means a variable has been declared but not assigned; 'null' is an assignment value that represents no value."
+    },
+    {
+        "prompt": "What are arrow functions in JavaScript?",
+        "response": "Arrow functions are a concise syntax for writing functions and they do not have their own 'this' context."
+    },
+    {
+        "prompt": "What is the purpose of promises in JavaScript?",
+        "response": "Promises are used to handle asynchronous operations by providing a way to attach callbacks for success or failure."
+    },
+    {
+        "prompt": "What is hoisting in JavaScript?",
+        "response": "Hoisting is JavaScript's default behavior of moving declarations to the top of the current scope."
+    },
+    {
+        "prompt": "What is the 'this' keyword in JavaScript?",
+        "response": "'this' refers to the object from which the function was called or the context in which the function is executing."
+    },
+    {
+        "prompt": "What are template literals in JavaScript?",
+        "response": "Template literals allow embedded expressions and multi-line strings using backticks (`) instead of quotes."
+    },
+    {
+        "prompt": "What is the difference between var, let, and const?",
+        "response": "'var' is function-scoped, 'let' and 'const' are block-scoped. 'const' cannot be reassigned."
+    },
+    {
+        "prompt": "What is the event loop in JavaScript?",
+        "response": "The event loop is a mechanism that handles asynchronous callbacks in JavaScript by placing them in a queue."
+    },
+    {
+        "prompt": "What is the call stack?",
+        "response": "The call stack is a data structure that records function calls in the order they are made and removed as they return."
+    },
+    {
+        "prompt": "What are higher-order functions in JavaScript?",
+        "response": "Functions that take other functions as arguments or return them are called higher-order functions."
+    },
+    {
+        "prompt": "What is the difference between synchronous and asynchronous code?",
+        "response": "Synchronous code runs line by line; asynchronous code can run in the background without blocking the main thread."
+    },
+    {
+        "prompt": "What is a callback function?",
+        "response": "A callback function is a function passed as an argument to another function to be executed later."
+    },
+    {
+        "prompt": "What is the purpose of the 'bind' method?",
+        "response": "The 'bind' method creates a new function with 'this' bound to the provided object."
+    },
+    {
+        "prompt": "What does the 'new' keyword do?",
+        "response": "'new' creates a new object and sets the prototype of that object to the constructor function’s prototype."
+    },
+    {
+        "prompt": "What is prototype in JavaScript?",
+        "response": "Prototype is an object from which other objects inherit properties and methods."
+    },
+    {
+        "prompt": "What is prototypal inheritance?",
+        "response": "Prototypal inheritance is a feature that allows objects to inherit from other objects using the prototype chain."
+    },
+    {
+        "prompt": "What is the difference between call and apply?",
+        "response": "'call' and 'apply' invoke functions with a given 'this' context; 'apply' takes an array of arguments, 'call' takes comma-separated."
+    },
+    {
+        "prompt": "What is the purpose of the 'typeof' operator?",
+        "response": "'typeof' is used to check the data type of a variable."
+    },
+    {
+        "prompt": "What is the difference between map and forEach?",
+        "response": "'map' returns a new array after applying a function, 'forEach' executes a function without returning a new array."
+    },
+    {
+        "prompt": "What are spread and rest operators?",
+        "response": "Spread expands elements of an array; rest collects multiple elements into a single array."
+    },
+    {
+        "prompt": "What is a promise chain?",
+        "response": "A promise chain is a sequence of `.then()` calls where the output of one promise is passed to the next."
+    },
+    {
+        "prompt": "What is async/await in JavaScript?",
+        "response": "'async/await' is syntax to handle promises more cleanly like synchronous code."
+    },
+    {
+        "prompt": "What is NaN in JavaScript?",
+        "response": "NaN stands for 'Not-a-Number' and is the result of an invalid or undefined mathematical operation."
+    },
+    {
+        "prompt": "How can you check if a variable is an array?",
+        "response": "Use 'Array.isArray(variable)' to check if it's an array."
+    },
+    {
+        "prompt": "What are default parameters?",
+        "response": "Default parameters allow function arguments to have a default value if no value is provided."
+    },
+    {
+        "prompt": "What is the difference between shallow and deep copy?",
+        "response": "Shallow copy copies only the top-level, while deep copy recursively copies all nested objects."
+    },
+    {
+        "prompt": "What is a symbol in JavaScript?",
+        "response": "A symbol is a primitive data type used for unique identifiers."
+    },
+    {
+        "prompt": "What are generators in JavaScript?",
+        "response": "Generators are functions that can be paused and resumed using the 'function*' syntax and 'yield' keyword."
+    },
+    {
+        "prompt": "What is the difference between 'in' and 'hasOwnProperty'?",
+        "response": "'in' checks if a property exists in an object or its prototype, 'hasOwnProperty' checks only in the object itself."
+    },
+    {
+        "prompt": "What is the difference between localStorage and sessionStorage?",
+        "response": "localStorage persists data indefinitely; sessionStorage lasts only for the session (until the tab is closed)."
+    },
+    {
+        "prompt": "What is the 'instanceof' operator?",
+        "response": "'instanceof' checks whether an object is an instance of a constructor."
+    },
+    {
+        "prompt": "How does JavaScript handle memory management?",
+        "response": "JavaScript uses garbage collection to automatically reclaim memory that's no longer in use."
+    },
+    {
+        "prompt": "What is the use of 'Object.freeze'?",
+        "response": "'Object.freeze' prevents an object from being modified: no new properties can be added, removed, or changed."
+    },
+    {
+        "prompt": "What are the primitive data types in JavaScript?",
+        "response": "Primitive types include string, number, boolean, null, undefined, symbol, and bigint."
+    },
+    {
+        "prompt": "What is debouncing in JavaScript?",
+        "response": "Debouncing is a technique to limit the rate at which a function is executed, waiting for a pause in input."
+    },
+    {
+        "prompt": "What is throttling in JavaScript?",
+        "response": "Throttling ensures a function is only called once in a specified time interval."
+    },
+    {
+        "prompt": "What is the DOM?",
+        "response": "The DOM (Document Object Model) is a programming interface for HTML and XML documents."
+    },
+    {
+        "prompt": "How do you prevent default behavior in an event?",
+        "response": "Use 'event.preventDefault()' inside an event handler to stop the default action."
+    },
+    {
+        "prompt": "What is bubbling and capturing in event propagation?",
+        "response": "Bubbling moves from target to parent; capturing moves from parent to target in the DOM event flow."
+    },
+    {
+        "prompt": "What is JSON?",
+        "response": "JSON (JavaScript Object Notation) is a lightweight data-interchange format that is easy to read and write."
+    },
+    {
+        "prompt": "What is the difference between GET and POST requests?",
+        "response": "'GET' is used to fetch data, 'POST' is used to submit data to the server."
+    },
+    {
+        "prompt": "What are template strings in JavaScript?",
+        "response": "Template strings use backticks and allow embedded expressions using ${expression}."
+    },
+    {
+        "prompt": "What is 'strict mode' in JavaScript?",
+        "response": "Strict mode helps catch common coding bugs and prevents use of unsafe features by adding 'use strict'."
+    },
+    {
+        "prompt": "How do you clone an object in JavaScript?",
+        "response": "Use 'Object.assign({}, obj)' or the spread operator '{...obj}' for shallow cloning."
+    },
+    {
+        "prompt": "What is destructuring in JavaScript?",
+        "response": "Destructuring allows extracting values from arrays or properties from objects into separate variables."
+    },
+    {
+        "prompt": "What are JavaScript modules?",
+        "response": "Modules allow code to be split into reusable files using 'import' and 'export' syntax."
+    },
+    {
+        "prompt": "What is the difference between '==' and '==='?",
+        "response": "'==' checks for value equality with type coercion; '===' checks for strict equality without coercion."
+    },
+    {
+        "prompt": "What are falsy values in JavaScript?",
+        "response": "Falsy values include: false, 0, '', null, undefined, and NaN."
+    },
+    {
+        "prompt": "What is type coercion in JavaScript?",
+        "response": "Type coercion is the automatic conversion of values from one data type to another."
+    },
+    {
+        "prompt": "How can you make an object iterable?",
+        "response": "By implementing the [Symbol.iterator] method in the object."
+    },
+    {
+        "prompt": "What are async iterators?",
+        "response": "Async iterators allow you to use 'for await...of' to loop over asynchronous data sources."
+    },
+    {
+        "prompt": "What is memory leak in JavaScript?",
+        "response": "A memory leak occurs when unused memory is not released, often due to lingering references."
+    },
+    {
+        "prompt": "What is the difference between function declaration and expression?",
+        "response": "Function declarations are hoisted; expressions are not and are only usable after definition."
+    },
+    {
+        "prompt": "How to handle errors in async/await?",
+        "response": "Use try/catch blocks around 'await' calls to handle errors."
+    },
+    {
+        "prompt": "What is a pure function?",
+        "response": "A pure function has no side effects and returns the same output for the same input."
+    },
+    {
+        "prompt": "What is IIFE in JavaScript?",
+        "response": "An IIFE (Immediately Invoked Function Expression) runs as soon as it is defined."
+    }
+]
